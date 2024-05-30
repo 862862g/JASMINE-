@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  height: 350px; 
+  background: OldLace;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: Pink;
+  height: 350px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+body {
+    background-image: url('image/bg.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    
+}
+}
